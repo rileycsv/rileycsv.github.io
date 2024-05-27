@@ -1,0 +1,139 @@
+body {
+    background-color: #D4B4D6;
+}
+.navbar {
+    background-color: #D4B4D6; /* Background color */
+    overflow: hidden; /* Clear floats */
+    text-align: center; /* Center the text */
+}
+
+/* Style the links inside the navbar */
+.navbar a {
+    display: inline-block; /* Make the links inline-block elements */
+    color: black; /* Text color */
+    padding: 20px 30px; /* Padding */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd; /* Hover background color */
+    color: black; /* Hover text color */
+}
+
+section {
+    height: 90vh;
+}
+
+.special {
+        font-size: 5em;
+        opacity: 0; /* Start with opacity 0 */
+        transition: opacity 1s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 300px;
+    border: 2px solid grey;
+    padding: 130px;
+    margin: 90px;
+    margin-top: 150px;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 5em;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    transform: translate(-20px, -20px);
+}
+
+h2 {
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    transform: translate(-20px, 0);
+}
+
+.center-image {
+    position: absolute; /* Position the image absolutely */
+    top: 50%; /* Position the image vertically at 50% from the top */
+    right: 350px; /* Position the image at the right side of the container */
+    transform: translate(0, -30%); /* Center the image vertically */
+    max-width: 100%; /* Ensure the image fits inside the container */
+    max-height: 50%;
+}
+
+#about {
+    background-color: #CED4DF;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 130px;
+    margin: 90px;
+}
+
+.about-me h1 {
+    font-weight: normal; /* Set font weight to normal */
+    font-size: 2em; /* Set font size smaller */
+    margin: 0;
+    transform: translate(-160px, 10px);
+    margin: 0 20px 10px 0;
+}
+
+.paragraph {
+    padding: 50px;
+    text-align: center; /* Align paragraph text to the right */
+    margin-left: 600px;
+    transform: translate(50px, -20px);
+    font-size: 20px;
+}
+
+.presenting {
+    width: 500px; /* Set the width to 200 pixels */
+    height: auto;
+    position: absolute; /* Position the image absolutely */
+    transform: translate(-150%, 20%); /* Center the image vertically */
+}
+
+#contact {
+    background-color: #EFCFD8;
+}
+
+/* the div */
+.contact-me { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid grey;
+    width: 300px;
+    height: 500px;
+}
+
+.contactme {
+    font-weight:lighter;
+    font-size:2em;
+    transform: translate(-1%, 20%);
+}
+
+.mine {
+    margin: 20px;
+    transform: translate(-1%, 20%);
+}
